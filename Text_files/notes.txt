@@ -1,0 +1,14 @@
+HTML, CSS, & JS makeup a webpage. The webpage is hosted on a server, if it has login requirments then a verivication will happen. 
+
+Step 1 - the HTML is sent from the server to the requeting browser
+Step 2 - the CSS is then sent
+Step 3 - the JS being sent to the requester.
+
+CSS can include attional frameworks such as bootstrap and tailwind help to write code faster and easier.
+JS has things like react, view, Svelte, 
+
+The backend of the website have 2 main features
+one is the primary language used such as Node JS, PHP, Django, Python, Ruby on Rails. All of these languges are server side
+The other thing is a database such as MySQL, Mongo DB. JSON. 
+
+API - Application Program Interface. is the channel that the data passes through to ensure the correct protocalls are right. 
