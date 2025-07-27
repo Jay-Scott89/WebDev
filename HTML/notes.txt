@@ -1,0 +1,8 @@
+HTML - Hyper Text Markup Language
+
+Most tags have a open and closing tag. 
+<html> </html> - all of the website are inside of the tags
+<head> - contains most of the meta data, such as title, charset, 
+<body> - contains what is seen on the webpage
+
+index is the most common name for the default file. 
