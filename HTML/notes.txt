@@ -6,3 +6,12 @@ Most tags have a open and closing tag.
 <body> - contains what is seen on the webpage
 
 index is the most common name for the default file. 
+
+Emmet is a built in toolset that helps programmers to write faster. 
+
+Block v in line elements
+a H1 tag takes up the entire space from left to right regardless of how much was used
+where as a in line element such as a href will only take up what it needs
+to see what is block and in line, inspect the element with the browser. 
+
+tags like strong help to lay empasis for screen readers and such 
