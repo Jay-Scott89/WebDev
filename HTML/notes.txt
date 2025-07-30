@@ -15,3 +15,6 @@ where as a in line element such as a href will only take up what it needs
 to see what is block and in line, inspect the element with the browser. 
 
 tags like strong help to lay empasis for screen readers and such 
+
+The table element is one of the most important elements 
+Additionaly the ability to take information from the user using forms. 
