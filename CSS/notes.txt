@@ -1,0 +1,14 @@
+The 3 ways to make a website nice
+It all starts with the FONT. It can make up so much of the space
+second the images decide how well a page will look
+finaly the components matter. 
+
+The whole job of CSS is to select an element, then style the element.
+
+inline styles such as tailwind are done in the HTML in the line where the element is called. 
+Or you can style in the head tag
+or, prefred, you can create a CSS doc containing all of the styling
+
+IDs should be unique however classes can be duplicated 
+
+The cascading rules have a level of power with some overrulling others
