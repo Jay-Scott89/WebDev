@@ -12,3 +12,6 @@ one is the primary language used such as Node JS, PHP, Django, Python, Ruby on R
 The other thing is a database such as MySQL, Mongo DB. JSON. 
 
 API - Application Program Interface. is the channel that the data passes through to ensure the correct protocalls are right. 
+
+DOM - Document Object Model - Its how your page is structure, you can transform your HTML into a tree that is displayed on the browser. 
+In the way of Parent to child, decendants, and siblings. 
