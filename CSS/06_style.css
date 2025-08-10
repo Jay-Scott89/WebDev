@@ -2,7 +2,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 20px;
-  background-color: #a1a1a1;
+  background-color: #333333;
   color: #fff;
 }
 
@@ -59,4 +59,105 @@ h2 {
   padding: 5px 15px;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.nav2 {
+  background-color: #03643c;
+  width: 200px;
+  padding: 20px;
+}
+
+.nav2 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav2 li {
+  margin-bottom: 12px;
+}
+
+.nav2 a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding: 10px;
+  width: 90%;
+}
+
+.nav2 a:hover {
+  background-color: #048a2f;
+  border-radius: 5px;
+}
+
+.nav2 .login-btn {
+  background-color: #048a2f;
+  color: #fff;
+  border: none;
+  width: 100%;
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.nav2 .login-btn:hover {
+  background-color: #057017;
+}
+
+.nav3 {
+  background-color: #0a65c7;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.nav3 ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav3 a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  display: block;
+}
+
+.nav3 a:hover {
+  color: #ccc;
+  background-color: #0858ad;
+  border-radius: 5px;
+}
+
+.nav3 .dropdown-content {
+  display: none;
+}
+
+.nav3 .dropdown:hover .dropdown-content {
+  display: block;
+  position: absolute;
+  background-color: #0b7bf3;
+  min-width: 100px;
+  border-radius: 5px;
+}
+
+.nav3 .dropdown:hover .dropdown-content a:hover {
+  background-color: #0a65c7;
+}
+
+.nav3 .login-btn {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  width: 100%;
+  padding: 5px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.nav3 .login-btn:hover {
+  background-color: #ccc;
 }
