@@ -14,3 +14,6 @@ let user = { firstname: "Jamie", lastname: "Scott" };
 
 let getScore = score;
 console.log(getScore);
+
+// Pimatives - String, Boolean, Number, Null, undefined, Symbol
+// Non-primative - Objects (array, functions, objects)
