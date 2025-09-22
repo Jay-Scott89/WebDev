@@ -5,8 +5,8 @@
 let sum = 0;
 let i = 0;
 while (i <= 5) {
-  sum += i;
-  i++;
+   sum += i;
+   i++;
 }
 console.log(`1. ${sum}`);
 
@@ -16,8 +16,8 @@ console.log(`1. ${sum}`);
 let countdown = [];
 let j = 5;
 while (j > 0) {
-  countdown.push(j);
-  j--;
+   countdown.push(j);
+   j--;
 }
 console.log(`2. ${countdown}`);
 /* 
@@ -42,8 +42,8 @@ do {
 let total = 0;
 let k = 1;
 do {
-  total += k;
-  k++;
+   total += k;
+   k++;
 } while (k <= 3);
 console.log(`4. ${total}`);
 /* 
@@ -53,10 +53,10 @@ console.log(`4. ${total}`);
 let multipliedNumbers = [];
 let numbers = [2, 4, 6];
 for (let l = 0; l < numbers.length; l++) {
-  let takenNumber = numbers[l] * 2;
-  multipliedNumbers.push(takenNumber);
+   let takenNumber = numbers[l] * 2;
+   multipliedNumbers.push(takenNumber);
 
-  // multipliedNumbers.push(numbers[l] * 2); Alternate way to write the same line
+   // multipliedNumbers.push(numbers[l] * 2); Alternate way to write the same line
 }
 console.log(`5. ${multipliedNumbers} `);
 
@@ -67,8 +67,8 @@ console.log(`5. ${multipliedNumbers} `);
 let cities = ["Paris", "New York", "Tokyo", "London"];
 let cityList = [];
 for (let i = 0; i < cities.length; i++) {
-  const myCity = cities[i];
-  cityList.push(myCity);
+   const myCity = cities[i];
+   cityList.push(myCity);
 }
 console.log(`6. ${cityList}`);
 
@@ -77,24 +77,52 @@ console.log(`6. ${cityList}`);
 1. Write a `for` loop that loops through the array `["green tea", "black tea", "chai", "oolong tea"]` and stops the loop when it finds `"chai"`. 
    Store all teas before `"chai"` in a new array named `selectedTeas`.
 */
+let teas = ["green tea", "black tea", "chai", "oolong tea"]
+let selectedTeas = []
+for (let i = 0; i < teas.length; i++) {
+   if (teas[i] === 'chai') {
+      break
+   }
+   selectedTeas.push(teas[i])
+}
+console.log(`1. ${selectedTeas}`)
 
-/* 
-2. Write a `for` loop that loops through the array `["London", "New York", "Paris", "Berlin"]` and skips `"Paris"`. 
+/*
+2. Write a `for` loop that loops through the array `["London", "New York", "Paris", "Berlin"]` and skips `"Paris"`.
    Store the other cities in a new array named `visitedCities`.
 */
 
-/* 
-3. Use a `for-of` loop to iterate through the array `[1, 2, 3, 4, 5]` and stop when the number `4` is found. 
+let newCities = ["London", "New York", "Paris", "Berlin"];
+let visitedCities = [];
+for (let i = 0; i < newCities.length; i++) {
+   if (newCities[i] === 'Paris') {
+      continue;
+   }
+   visitedCities.push(newCities[i])
+}
+console.log(`2. ${visitedCities}`);
+
+
+/*
+3. Use a `for-of` loop to iterate through the array `[1, 2, 3, 4, 5]` and stop when the number `4` is found.
    Store the numbers before `4` in an array named `smallNumbers`.
 */
-
-/* 
-4. Use a `for-of` loop to iterate through the array `["chai", "green tea", "herbal tea", "black tea"]` and skip `"herbal tea"`. 
+nums = [1, 2, 3, 4, 5];
+smallNumbers = [];
+for (const n of nums) {
+   if (n === 4) {
+      break;
+   }
+   smallNumbers.push(n);
+}
+console.log(`3. ${smallNumbers}`)
+/*
+4. Use a `for-of` loop to iterate through the array `["chai", "green tea", "herbal tea", "black tea"]` and skip `"herbal tea"`.
    Store the other teas in an array named `preferredTeas`.
 */
 
-/* 
-5. Use a `for-in` loop to loop through an object containing city populations. 
+/*
+5. Use a `for-in` loop to loop through an object containing city populations.
    Stop the loop when the population of `"Berlin"` is found and store all previous cities' populations in a new object named `cityPopulations`.
 
    let citiesPopulation = {
@@ -106,8 +134,8 @@ console.log(`6. ${cityList}`);
 
 */
 
-/* 
-6. Use a `for-in` loop to loop through an object containing city populations. 
+/*
+6. Use a `for-in` loop to loop through an object containing city populations.
    Skip any city with a population below 3 million and store the rest in a new object named `largeCities`.
 
 let worldCities = {
@@ -119,8 +147,8 @@ let worldCities = {
 
    */
 
-/* 
-7. Write a `forEach` loop that iterates through the array `["earl grey", "green tea", "chai", "oolong tea"]`. 
+/*
+7. Write a `forEach` loop that iterates through the array `["earl grey", "green tea", "chai", "oolong tea"]`.
    Stop the loop when `"chai"` is found, and store all previous tea types in an array named `availableTeas`.
 */
 
