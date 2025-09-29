@@ -8,11 +8,39 @@ body {
   align-items: stretch;
   display: flex;
   justify-content: space-between;
-  background-color: #808000;
+
   padding: 10px;
+}
+.link {
+  background: #0704cf;
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+
+.linkList {
+  display: none;
 }
 
 .footer {
-  background-color: #808000;
   padding: 10px;
+}
+.grid-container {
+  display: grid;
+  gap: 5px;
+  background-color: #ddd;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+.box {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.box:nth-child(even) {
+  background-color: #e74c3c;
 }

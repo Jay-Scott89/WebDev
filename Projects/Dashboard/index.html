@@ -7,38 +7,37 @@
     <link rel="stylesheet" href="style.css" />
     <script src="script.js"></script>
   </head>
-  <body>
-    <nav class="navbar">
-      <div>
-        <img
-          src="../../images/stock_brand_logo.png"
-          alt="Logo"
-          width="70"
-          height="35"
-        />
-      </div>
-      <div>
-        <input type="search" placeholder="Search Bar" />
-      </div>
-      <div>
-        Dropdown
-        <div>burger</div>
-        <button><i class="fa fa-bars"></i></button>
-        <div>
-          dropdown content
-          <div>A</div>
-          <div>Two</div>
-          <div>And D</div>
+  <body class="container">
+    <div
+      class="grid-container"
+      style="
+        grid-template-areas: 'header header header' 'side main main' 'side main2 main2' 'footer footer footer';
+      "
+    >
+      <nav class="navbar box" style="grid-area: header">
+        <div class="logo">
+          <img
+            src="../../images/stock_brand_logo.png"
+            alt="Logo"
+            width="70"
+            height="35"
+          />
         </div>
-      </div>
-    </nav>
-    <main>
-      <div>
-        <h1>Heading</h1>
-        <h2>sub heading</h2>
-      </div>
-      <div>
-        list of locations
+        <div>
+          <input class="searchbar" type="search" placeholder="Search Bar" />
+        </div>
+        <div class="dropdown">
+          <button class="burger Icon" onclick="myFunction()">&#9776;</button>
+          <div class="linkList" id="links">
+            <a class="link" href="#">A</a>
+            <a class="link" href="#">2</a>
+            <a class="link" href="#">and D</a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="box side" style="grid-area: side">
+        <h1>list of locations</h1>
         <div>location name</div>
         <div>location name</div>
         <div>location name</div>
@@ -47,12 +46,14 @@
         <div>location name</div>
         <div>location name</div>
       </div>
-      <div><map>My map</map></div>
-    </main>
-    <footer class="footer">
-      <div>Social Media links</div>
-      <div>Copyright</div>
-      <div>Made by</div>
-    </footer>
+      <div class="box main" style="grid-area: main"><map>My map</map></div>
+      <div class="box main2" style="grid-area: main2"><h2>Details</h2></div>
+
+      <footer class="footer box" style="grid-area: footer">
+        <div>Social Media links</div>
+        <div>Copyright</div>
+        <div>Made by</div>
+      </footer>
+    </div>
   </body>
 </html>
