@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Edinburgh Airport",
+    "location": { "lat": 55.950122, "lng": -3.359479 },
+    "description": "Primary international airport serving Edinburgh and the Lothians. Handles passenger, cargo and general aviation services and connects the region to domestic and international routes. Major ground-transport interchanges include tram and bus services. Revenue and running-cost figures below are estimates.",
+    "year_established": 1916,
+    "state": "active",
+    "annual_revenue_gbp_estimate": 340000000,
+    "annual_cost_to_run_gbp_estimate": 220000000
+  },
+  {
+    "name": "Edinburgh Waverley Railway Station",
+    "location": { "lat": 55.95209, "lng": -3.18926 },
+    "description": "Main central railway station in Edinburgh. Serves long-distance and commuter services including the East Coast Main Line. Large passenger flows and retail concessions. Description and dates per public heritage records; financials are estimates of station-level revenue and operating cost.",
+    "year_established": 1846,
+    "state": "active",
+    "annual_revenue_gbp_estimate": 60000000,
+    "annual_cost_to_run_gbp_estimate": 45000000
+  },
+  {
+    "name": "Haymarket Railway Station",
+    "location": { "lat": 55.94563, "lng": -3.21832 },
+    "description": "Secondary major railway and tram interchange west of the city centre. Handles regional and intercity traffic and serves commuters for west Edinburgh. Revenue and cost figures are estimates for station operations and retail.",
+    "year_established": 1842,
+    "state": "active",
+    "annual_revenue_gbp_estimate": 15000000,
+    "annual_cost_to_run_gbp_estimate": 10000000
+  },
+  {
+    "name": "Forth Bridge (rail)",
+    "location": { "lat": 55.9984, "lng": -3.3876 },
+    "description": "Historic cantilever railway bridge spanning the Firth of Forth. Carries heavy rail traffic between Edinburgh and Fife. Designated UNESCO World Heritage Site and managed as critical rail infrastructure. Financial entries reflect public maintenance budgets and not commercial revenue.",
+    "year_established": 1890,
+    "state": "active",
+    "annual_revenue_gbp_estimate": 0,
+    "annual_cost_to_run_gbp_estimate": 12000000
+  },
+  {
+    "name": "Queensferry Crossing",
+    "location": { "lat": 56.0042, "lng": -3.436 },
+    "description": "Cable-stayed road bridge opened 2017 carrying M90 traffic across the Firth of Forth. Built to improve resilience of the Forth crossing corridor and to carry heavy goods vehicle traffic. Ongoing maintenance and monitoring are part of public operating costs. Revenue shown is net toll income (none); cost is estimated maintenance/operations.",
+    "year_established": 2017,
+    "state": "active",
+    "annual_revenue_gbp_estimate": 0,
+    "annual_cost_to_run_gbp_estimate": 30000000
+  },
+  {
+    "name": "Forth Road Bridge",
+    "location": { "lat": 56.0003, "lng": -3.445 },
+    "description": "Suspension road bridge linking South Queensferry (Edinburgh) to Fife. Opened 1964 and now prioritised for public transport, cyclists and pedestrians after traffic remediation on the Queensferry Crossing. Figures are estimated annual maintenance and operations costs.",
+    "year_established": 1964,
+    "state": "active",
+    "annual_revenue_gbp_estimate": 0,
+    "annual_cost_to_run_gbp_estimate": 12000000
+  },
+  {
+    "name": "HMP Edinburgh (Saughton)",
+    "location": { "lat": 55.92741, "lng": -3.26108 },
+    "description": "Major prison serving Edinburgh and surrounding courts. Built on a site developed in the early 20th century and rebuilt in stages; holds sentenced and remand prisoners. No commercial revenue; costs are prison operational budgets (estimates).",
+    "year_established": 1919,
+    "state": "active",
+    "annual_revenue_gbp_estimate": 0,
+    "annual_cost_to_run_gbp_estimate": 50000000
+  },
+  {
+    "name": "Seafield Waste Water Treatment Works",
+    "location": { "lat": 55.977, "lng": -3.162 },
+    "description": "Largest wastewater treatment works serving Edinburgh (Leith area). Treats city sewage and generates energy from captured biogas. Recently upgraded in large capital programme. Revenue may include energy export and services; reported figures below are conservative estimates of net revenue and operating cost.",
+    "year_established": 1970,
+    "state": "active",
+    "annual_revenue_gbp_estimate": 10000000,
+    "annual_cost_to_run_gbp_estimate": 25000000
+  },
+  {
+    "name": "Port of Leith (Leith Docks)",
+    "location": { "lat": 55.983, "lng": -3.167 },
+    "description": "Deep-water commercial port serving Edinburgh. Handles bulk, project and offshore wind support traffic and has multi-berth facilities. Owned/operated by Forth Ports. Revenue and operating-cost figures are estimated port-level figures.",
+    "year_established": 1700,
+    "state": "active",
+    "annual_revenue_gbp_estimate": 120000000,
+    "annual_cost_to_run_gbp_estimate": 80000000
+  },
+  {
+    "name": "Cockenzie Power Station (former)",
+    "location": { "lat": 55.96776, "lng": -2.97115 },
+    "description": "Former coal-fired power station on the south shore of the Firth of Forth. Commissioned in the late 1960s and decommissioned in 2013. Major structures were demolished 2015–2016. Listed here with state 'destroyed' and zero operating revenue or ongoing generation cost.",
+    "year_established": 1967,
+    "state": "destroyed",
+    "annual_revenue_gbp_estimate": 0,
+    "annual_cost_to_run_gbp_estimate": 0
+  }
+]
