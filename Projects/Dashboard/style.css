@@ -5,8 +5,13 @@ body {
 }
 
 #map {
-  height: 100vh;
-  /* width: 66vh; */
+  height: 50vh;
+}
+
+#dynamic-list p {
+  margin: 2px;
+  background-color: black;
+  border: #fff 1px solid;
 }
 
 .navbar {
@@ -48,4 +53,11 @@ body {
 
 .box:nth-child(even) {
   background-color: #e74c3c;
+}
+
+.grid-container {
+  display: grid;
+  width: 100%;
+  grid-template-areas: "header header header" "side main main" "side main2 main2" "footer footer footer";
+  grid-template-columns: 1fr 1fr 1fr;
 }
