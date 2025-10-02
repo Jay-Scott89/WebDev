@@ -10,15 +10,19 @@ body {
 
 #dynamic-list p {
   margin: 2px;
-  background-color: black;
   border: #fff 1px solid;
+  cursor: pointer;
+}
+
+#dynamic-list p.active {
+  background-color: #555;
+  color: #fff;
 }
 
 .navbar {
   align-items: stretch;
   display: flex;
   justify-content: space-between;
-
   padding: 10px;
 }
 .link {
@@ -28,8 +32,17 @@ body {
   color: white;
 }
 
+.dropdown {
+  position: relative;
+}
+
 .linkList {
   display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #0704cf;
+  z-index: 1000;
 }
 
 .footer {
@@ -41,6 +54,14 @@ body {
   background-color: #ddd;
   padding: 5px;
   margin-bottom: 5px;
+  width: 100%;
+  grid-template-areas:
+    "header header header"
+    "side main main"
+    "side main2 main2"
+    "footer footer footer";
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
 }
 .box {
   background-color: #3498db;
@@ -53,11 +74,4 @@ body {
 
 .box:nth-child(even) {
   background-color: #e74c3c;
-}
-
-.grid-container {
-  display: grid;
-  width: 100%;
-  grid-template-areas: "header header header" "side main main" "side main2 main2" "footer footer footer";
-  grid-template-columns: 1fr 1fr 1fr;
 }
