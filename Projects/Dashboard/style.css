@@ -1,7 +1,8 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  padding: 20px;
+  font-family: sans-serif;
+  margin: 20px;
+  background: #f4f6f8;
+  color: #333;
 }
 
 #map {
@@ -21,12 +22,15 @@ body {
 
 .navbar {
   align-items: stretch;
+  background: #2c3e50;
+  color: #fff;
+  text-align: left;
   display: flex;
   justify-content: space-between;
   padding: 10px;
 }
 .link {
-  background: #0704cf;
+  background: #34495e;
   display: block;
   text-decoration: none;
   color: white;
@@ -41,8 +45,12 @@ body {
   position: absolute;
   top: 100%;
   right: 0;
-  background-color: #0704cf;
+  background-color: #34495e;
   z-index: 1000;
+}
+
+.link:hover {
+  background: 1abc9c;
 }
 
 .footer {
@@ -50,9 +58,9 @@ body {
 }
 .grid-container {
   display: grid;
-  gap: 5px;
-  background-color: #ddd;
-  padding: 5px;
+  gap: 10px;
+  background: transparent;
+  padding: 10px;
   margin-bottom: 5px;
   width: 100%;
   grid-template-areas:
@@ -64,7 +72,9 @@ body {
   grid-template-rows: auto auto auto;
 }
 .box {
-  background-color: #3498db;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   color: #fff;
   padding: 10px;
   font-size: 18px;
