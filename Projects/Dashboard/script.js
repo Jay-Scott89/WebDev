@@ -47,6 +47,21 @@ function loadMap() {
   });
   map.addControl(new maplibregl.NavigationControl(), "top-left");
 
+  // This lets the user click on the map and print the LngLat to the consol
+  map.on("load", () => {
+    map.on("click", (e) => {
+      const lngLat = e.lngLat;
+      console.log("Longitude:", lngLat.lng, "Latitude:", lngLat.lat);
+
+      // This drops a physical marker onto the map
+      new maplibregl.Marker({ color: "red" })
+        .setLngLat([lngLat.lng, lngLat.lat])
+        .addTo(map);
+    });
+
+    map.on("moveend", updateList);
+  });
+
   map.on("moveend", updateList);
 }
 
