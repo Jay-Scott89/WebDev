@@ -37,7 +37,7 @@ function loadMap() {
   const apiKey =
     "v1.public.eyJqdGkiOiI3YTcyNWY5MS1lNjg5LTQyMDgtYjE4OS0zMmMzMmMxNWFmN2QifTvSiNGbyLV5fRDQvgBYfJlPZxZNPm-dgNcbUB6bjXUW5JtPiM62T5K2kU7wVZzOtwdBTxa6Jf7WyhbY6kMavaq_UJaa_QviaE0InUVvoOSnby4LgEr02CM065ZiG6gFxy6beoDAIMdt0aKIU6QLCDek-ThoQj3AeeC6OcYRE0GQFpbEHocrVtA2bbjvImaRVV0c_NsppPn3jdZdEOXZ3MaE5zHNCOKL29Iu5UHq-EiKKt6NKO9JN2P27XKMzj5UgPJmjXAEFuVAI5zWV3dbRwcHgtE-SBwR_Vfom2qxQ5fE90gxYyAjV19l87eHgMb0BY7Bmu5KXoHNFLJaZ1Z3m_E.N2IyNTQ2ODQtOWE1YS00MmI2LTkyOTItMGJlNGMxODU1Mzc2";
   const region = "eu-north-1";
-  const style = "Standard";
+  const style = "Monochrome";
 
   map = new maplibregl.Map({
     container: "map",
