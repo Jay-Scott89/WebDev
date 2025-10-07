@@ -83,3 +83,7 @@ body {
 .box:nth-child(even) {
   background-color: #0f172a;
 }
+
+.footer {
+  color: #0f172a;
+}
